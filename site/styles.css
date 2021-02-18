@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-flow:  wrap;
+  align-items: stretch;
+  height: 100vh;
+}
+
+#header {
+  flex-basis: auto;
+  flex-grow: 1;
+  background-color: #b2b2b2;
+  min-height: 100px;
+  border-bottom: 5px solid white;
+}
+
+#body {
+  flex-basis: auto;
+  flex-grow: 3;
+  background-image: linear-gradient(to bottom right, #b1cbbb, #eea29a);
+  background-repeat: no-repeat;
+}
+
+#body #content {
+  margin: 24px;
+}
+
+p > img {
+  display:inline-block; width:200px; height:auto;
+}
+
+#footer {
+  flex-basis: auto;
+  flex-grow: 1;
+  background-color: #b2b2b2;
+  min-height: 100px;
+  border-top: 5px solid white;
+}
+
+#footer :hover {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COLOR PALETTE */
+/** #b1cbbb **/
+/** #deeaee **/
+/** #eea29a **/
+/** #c94c4c **/
+/** #b2b2b2 **/
+
+@font-face {
+  font-family: 'King Basil';
+  src: url('King-Basil.ttf');
+}
+
+.title {
+  height: inherit;
+  font-size: 3em;
+  font-family: 'King Basil', cursive;
+  color: white;
+  padding-top: 24px;
+}
+
+.center-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/** MEDIA BREAKPOINTS **/
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+  .heading-text {
+    color: #c94c4c;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .heading-text {
+    color: #eea29a;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .heading-text {
+    color: #deeaee;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .heading-text {
+    color: #b2b2b2;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .heading-text {
+    color: black;
+  }
+}
