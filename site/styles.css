@@ -8,7 +8,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  flex-flow:  wrap;
   align-items: stretch;
   height: 100vh;
 }
@@ -33,7 +32,9 @@ body {
 }
 
 p > img {
-  display:inline-block; width:200px; height:auto;
+  display: inline-block; 
+  width: 200px; 
+  height: auto;
 }
 
 #footer {
