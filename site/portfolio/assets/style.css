@@ -1,0 +1,50 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/* Custom Font Styles */
+h1, h2, h3, h4, h5 {
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    font-weight: bold;
+}
+p {
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+}
+/* End Custom Font Styles */
+
+/* Header Gradient BG */
+.header-gradient-bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* End Header Gradient BG */
+
+/* About Me Content */
+.about-me-content {
+    color:white;
+}
+/* End About Me Content */
+
