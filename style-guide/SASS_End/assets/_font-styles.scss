@@ -1,0 +1,47 @@
+/* Custom Font Styles */
+$font-family: 'Roboto', Sans-Serif;
+
+.font-h1 {
+  Font-Family: $font-family;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.font-h2 {
+  Font-Family: $font-family;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.font-h3 {
+  Font-Family: $font-family;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.font-h4 {
+  Font-Family: $font-family;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-label {
+  Font-Family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-body {
+  Font-Family: $font-family;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.font-caption {
+  Font-Family: $font-family;
+  font-size: 14px;
+  line-height: 16px;;
+}
+/* End Custom Font Styles */
